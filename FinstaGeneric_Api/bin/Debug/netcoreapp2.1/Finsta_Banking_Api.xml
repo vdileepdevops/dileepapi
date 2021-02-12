@@ -1,0 +1,1651 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Finsta_Banking_Api</name>
+    </assembly>
+    <members>
+        <member name="M:FinstaApi.Controllers.Accounting.AccountingTransactionsController.SaveGeneralReceipt(FinstaInfrastructure.Accounting.GeneralreceiptDTO)">
+            <summary>
+            General Receipt Save
+            </summary>
+            <param name="GeneralreceiptDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Accounting.AccountingTransactionsController.GetReceiptsData">
+            <summary>
+            Gets Data for Main View
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Accounting.AccountingTransactionsController.GetGeneralReceiptReports(System.String)">
+            <summary>
+            API for General Receipt Report (Use for Duplicate Report also) Individual Reports.
+            </summary>
+            <param name="ReceiptId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Accounting.AccountingTransactionsController.GetgeneralreceiptReportData1(System.String)">
+            <summary>
+            API for General Receipt Report (Use for Duplicate Report also) single Report with List of accounts.
+            </summary>
+            <param name="ReceiptId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.SaveFDNameAndCode(FinstaInfrastructure.Banking.Masters.FdNameAndCodeDTO)">
+            <summary>
+            Save / Update Fixed Deposit Name And Code 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.GetFdNameAndCode(System.String,System.String)">
+            <summary>
+            Get Fixed Deposit Name And Code 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.SaveFDConfigurationDetails(FinstaInfrastructure.Banking.Masters.FdConfigDeatails)">
+            <summary>
+            Save / Update Fixed Deposit Configuration Details 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.GetFdConfigurationDetails(System.String,System.String)">
+            <summary>
+            Get Fixed Deposit Configuration Details 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.SaveFDLoanFacilityDetails(FinstaInfrastructure.Banking.Masters.FDloanfacilityDetailsDTO)">
+            <summary>
+            Save / Update Fixed Deposit Loan Facility Details 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.GetFdLoanFacilityDetails(System.String,System.String)">
+            <summary>
+            Get Fixed Deposit Loan Facility Details 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.SaveFDReferralCommissionDetails(FinstaInfrastructure.Banking.Masters.FDReferralCommissionDTO)">
+            <summary>
+            Save / Update Fixed Deposit Referral Commission Details 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.GetFdReferralCommissionDetails(System.String,System.String)">
+            <summary>
+            Get Fixed Deposit Referral Commission Details 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.SaveFDIdentificationDocumentsDetails(FinstaInfrastructure.Banking.Masters.IdentificationDocumentsDto)">
+            <summary>
+            Save / Update Fixed Deposit Identification Documents Details 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.GetFdIdentificationDocumentsDetails(System.String,System.String)">
+            <summary>
+            Get Fixed Deposit Identification Documents Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.GetFdViewDetails">
+            <summary>
+            Get FD Config View Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.DeleteFixedDepositConfig(System.Int64)">
+            <summary>
+            Delete Fixed Deposit Configuration 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FdConfigartionController.CheckDuplicateFDName(System.Int64,System.String,System.String)">
+            <summary>
+            Check Duplicate FD Names 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.SaveFIMember(FinstaInfrastructure.Banking.Masters.FIMemberDTO)">
+            <summary>
+            Save Fi Member ( Not in Use) // All Tabs Save in Single Transaction
+            </summary>
+            <param name="_FIMemberDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.GetFIMemberData(System.String)">
+            <summary>
+            Get Member Details on Passing Reference ID
+            </summary>
+            <param name="MemberReferenceId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.GetallFIMembersDetails">
+            <summary>
+            Get all FI Members Details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.checkMemberCountinMaster(System.String)">
+            <summary>
+            Checks Duplicates whether Contact Exists as Member Or Not
+            </summary>
+            <param name="ContactReferenceId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.DeleteFIMember(System.String,System.Int64)">
+            <summary>
+            API to delete Fi Member
+            </summary>
+            <param name="MemberReferenceID"></param>
+            <param name="Userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.GetFIMembersAndApplicantTypesDetails(System.String)">
+            <summary>
+            API to Get Applicant Types based on Contact type
+            </summary>
+            <param name="ContactType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.SaveFIMemberMasterData(FinstaInfrastructure.Banking.Masters.FiMemberContactDetails)">
+            <summary>
+            Save FIrst Tab Data of Member
+            </summary>
+            <param name="_FiMemberContactDetails"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.SaveFIMemberReferenceData(FinstaInfrastructure.Banking.Masters.FIMembersaveReferences)">
+            <summary>
+            Save Member Reference Data
+            </summary>
+            <param name="_FIMembersaveReferences"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.SaveFIMemberReferralData(FinstaInfrastructure.Banking.Masters.FiMemberReferralDTO)">
+            <summary>
+            Save Member Referral Data
+            </summary>
+            <param name="_FiMemberReferralDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.GetFIMemberReferraldetails(System.String)">
+            <summary>
+            Get Referral Data on Passing MemberCode
+            </summary>
+            <param name="Applicationid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.GetFIMemberReferenceInformation(System.String)">
+            <summary>
+            Get Reference Data on passing Membercode
+            </summary>
+            <param name="Applicationid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.GetFIMembersforasGuardians">
+            <summary>
+            Get Guardian Details for Members who are having Applicant type as Minor
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.FIMemberController.getContactDetails(System.String)">
+            <summary>
+            Get Contact Details
+            </summary>
+            <param name="contactType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsuranceMemberController.GetallInsuranceMembers(System.Int64)">
+            <summary>
+            Get Members Based on Membertype
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsuranceMemberController.GetMemberDetailsforview(System.Int64)">
+            <summary>
+            Get Member Details on passing Member Id
+            </summary>
+            <param name="MemberId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsuranceMemberController.GetInsuranceSchemeDetails(System.Int64)">
+            <summary>
+            Get all scheme details of particular Scheme on passing Insurance Scheme Id.
+            </summary>
+            <param name="InsuranceSchemeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsuranceMemberController.GetInsuranceMemberNomineeDetails(System.String)">
+            <summary>
+            Get Insurance Member Nominee Details on passing member Reference ID
+            </summary>
+            <param name="MemberreferenceId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsuranceMemberController.SaveInsuranceMemberData(FinstaInfrastructure.Banking.Masters.InsuranceMembersave)">
+            <summary>
+            Save Insurance Member on Passing Model
+            </summary>
+            <param name="_InsuranceMembersave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsuranceMemberController.GetInsuranceMembersMainGrid">
+            <summary>
+            Get Insurance Member Data for Binding External Main Grid
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsuranceMemberController.GetMemberDetailsforEdit(System.String,System.Int64)">
+            <summary>
+            Get Insurance Member data on Passing Member Reference ID for Edit
+            </summary>
+            <param name="MemberReferenceID"></param>
+             <param name="Recordid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsuranceMemberController.DeleteInsuranceMember(System.String,System.Int64)">
+            <summary>
+            Deletes Insurance Member on Passing Member Reference ID
+            </summary>
+            <param name="MemberReferenceID"></param>
+            <param name="Userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsuranceMemberController.GetInsuranceSchemes(System.String,System.String)">
+            <summary>
+            Get Insurance Scheme Names based on Member Type and Applicant Type
+            </summary>
+            <param name="Membertype"></param>
+            <param name="Applicanttype"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsuranceMemberController.GetApplicants">
+            <summary>
+            Get all applicants
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsuranceMemberController.checkMemberCountinMaster(System.String,System.Int64,System.String,System.Int64)">
+            <summary>
+            Checks Duplicates whether Member has Same Insurance under one Insurance Type Or Not with Active Status.
+            </summary>
+            <param name="MemberCode"></param>
+            <param name="InsuranceconfigID"></param>
+            <param name="InsuranceType"></param>
+            <param name="Recordid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsurenceConfigController.SaveInsurenceNameAndCode(FinstaInfrastructure.Banking.Masters.InsurenceNameAndCodeDTO)">
+            <summary>
+            Save's  Insurence Name And Code Configaration Type.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsurenceConfigController.SaveInsurenceConfigDetails(FinstaInfrastructure.Banking.Masters.InsurenceConfigDTO)">
+            <summary>
+            Save's Insurence Configaration Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsurenceConfigController.SaveInsurenceReferralDetails(FinstaInfrastructure.Banking.Masters.insurenceReferralCommissionDTO)">
+            <summary>
+            Save's Insurence Configaration Referral Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsurenceConfigController.GetInsurenceViewDetails">
+            <summary>
+            Get Insurence View Details.
+            </summary>     
+            <returns></returns>
+            
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsurenceConfigController.GetInsurenceNameAndCodeDetails(System.String,System.String)">
+            <summary>
+            Get Insurence Name And Code Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsurenceConfigController.GetInsurenceConfigurationDetails(System.String,System.String)">
+            <summary>
+            Get Insurence Configuration Detailss.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsurenceConfigController.GetInsurenceReferralDetails(System.String,System.String)">
+            <summary>
+            Get Insurence Referral Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsurenceConfigController.DeleteInsurenceConfiguration(System.Int64)">
+            <summary>
+            Delete Insurence Configuration
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.InsurenceConfigController.GetInsurenceNameCount(System.String)">
+            <summary>
+            Check Duplicate RDName 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.MemberTypeController.SaveMemberType(FinstaInfrastructure.Banking.Masters.MemberTypeDTO)">
+            <summary>
+            Save's Member Type.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.MemberTypeController.GetMemberDetails">
+            <summary>
+            Get Member Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.MemberTypeController.BindMemberTypes">
+             <summary>
+            Bind Member Types.
+             </summary>     
+             <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.MemberTypeController.UpdateMemberType(FinstaInfrastructure.Banking.Masters.MemberTypeDTO)">
+             <summary>
+            Update Member Type.
+             </summary>     
+             <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.MemberTypeController.DeleteMemberType(System.Int32)">
+            <summary>
+            Delete Member Type.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.MemberTypeController.CheckDuplicateMemberType(System.String)">
+            <summary>
+            Check Duplicate Member Type 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.SaverdNameAndCode(FinstaInfrastructure.Banking.Masters.RdNameAndCodeDTO)">
+            <summary>
+            Save's Recurring Deposit Name And Code.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.Saverdconfigarationdetails(FinstaInfrastructure.Banking.Masters.RdConfigartionDetails)">
+            <summary>
+            Save's Recurring Deposit Configaration Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.SaveRdloanfacilityDetails(FinstaInfrastructure.Banking.Masters.RdloanfacilityDetailsDTO)">
+            <summary>
+            Save's Recurring Deposit Loan Facility Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.SaveRdReferralDetails(FinstaInfrastructure.Banking.Masters.RdReferralCommissionDTO)">
+            <summary>
+            Save's Recurring Deposit Referral Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.GetRdViewDetails">
+            <summary>
+            Get Rd Config View Details.
+            </summary>     
+            <returns></returns>
+            
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.GetRdNameAndCodeDetails(System.String,System.String)">
+            <summary>
+            Get Rd Name And Code Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.GetRdConfigurationDetails(System.String,System.String)">
+            <summary>
+            Get Rd Config Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.GetRdloanfacilityDetails(System.String,System.String)">
+            <summary>
+            Get Rd Loan Facilty Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.GetRdReferralDetails(System.String,System.String)">
+            <summary>
+            Get Rd Referral Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.SaveRDIdentificationDocumentsDetails(FinstaInfrastructure.Banking.Masters.IdentificationDocumentsDt)">
+            <summary>
+            Save / Update Recurring Deposit Identification Documents Details 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.GetRdIdentificationDocumentsDetails(System.String,System.String)">
+            <summary>
+            Get Recurring Deposit Identification Documents Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.DeleteRdConfiguration(System.Int64)">
+            <summary>
+            Delete Rd Configuration
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.RdConfigartionController.GetRdNameCount(System.String)">
+            <summary>
+            Check Duplicate RDName 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.SelfAdjustmentController.GetCompanyname">
+            <summary>
+            Get Company Name Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.SelfAdjustmentController.GetBranchName(System.String)">
+            <summary>
+            Get Branch Name Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.SelfAdjustmentController.GetSchemeType(System.String)">
+            <summary>
+            Get Scheme Type Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.SelfAdjustmentController.GetMembers(System.String,System.Int64)">
+            <summary>
+            Get Member Name Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.SelfAdjustmentController.GetFdAcnumbers(System.String,System.Int32,System.Int64)">
+            <summary>
+            Get FD Account Numbers
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.SelfAdjustmentController.GetBankDetails(System.Int32)">
+            <summary>
+            Get Bank Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.SelfAdjustmentController.SaveSelforAdjustment(FinstaInfrastructure.Banking.Masters.SelfAdjustmentConfigDTO)">
+            <summary>
+            Save / Update Self Or Adjustment Payments
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.SelfAdjustmentController.GetSelfAdjustmendtetails">
+            <summary>
+            View Self Or Adjustment  Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.SelfAdjustmentController.GetSelfAdjustmendtetailsByid(System.Int32,System.Int32)">
+            <summary>
+            Get Self Or Adjustment  Details By Id
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.ShareConfigController.SaveShareNameAndCode(FinstaInfrastructure.Banking.Masters.ShareConfigDTO)">
+            <summary>
+            Save's Share Name And Code .
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.ShareConfigController.GetShareNameAndCodeDetails(System.String,System.String)">
+            <summary>
+            Get Share Name And Code Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.ShareConfigController.SaveShareConfigurationDeatils(FinstaInfrastructure.Banking.Masters.ShareConfigDetails)">
+            <summary>
+            Save's Share Configuration Details .
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.ShareConfigController.GetShareConfigurationDetails(System.String,System.String)">
+            <summary>
+            Get Share Configuration Details .
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.ShareConfigController.SaveShareConfigurationReferralDeatils(FinstaInfrastructure.Banking.Masters.ShareconfigReferralDTO)">
+            <summary>
+            Save's Share Configuration Referral Details .
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.ShareConfigController.GetShareConfigurationReferralDetails(System.String,System.String)">
+            <summary>
+            Get Share Configuration Referral Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.ShareConfigController.DeleteShareConfig(System.Int64,System.String)">
+            <summary>
+            Delete Share Configuration Details .
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.ShareConfigController.GetShareConfigViewDetails">
+            <summary>
+            Get Share Config View Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Masters.ShareConfigController.CheckDuplicateShareName(System.String)">
+            <summary>
+            Check Duplicate Share Names 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.BondsPreviewController.GetBondsDetails">
+            <summary>
+            Get Bonds Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.BondsPreviewController.GetBondsPreviewDetails(System.String)">
+            <summary>
+            Get Bond Preview details list data
+            </summary>
+            <param name="fdaccountnos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.BondsPreviewController.SaveBondsPrint(FinstaInfrastructure.Banking.Transactions.Bonds_PrintDTO)">
+            <summary>
+            Save Bonds Print
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDReceiptController.GetMemberDetails(System.String,System.String)">
+            <summary>
+            Get Memeber Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDReceiptController.GetFdDetails(System.String,System.String)">
+            <summary>
+            Get Fixed Deposit Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDReceiptController.GetFdDetailsByid(System.String)">
+            <summary>
+            Get Fixed Deposit Details By ID
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDReceiptController.GetTransactionslist(System.Int32)">
+            <summary>
+            Get Transactions list
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDReceiptController.SaveFdReceipt(FinstaInfrastructure.Banking.Transactions.FDReceiptDTO)">
+            <summary>
+            Save FD Receipt
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDReceiptController.GetFDReceiptDetails(System.String,System.String)">
+            <summary>
+            Get FdReceipt Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetallJointMembers(System.String,System.String)">
+            API for Binding Member and Applicant types based on Contact type
+            api/Banking/Masters/FIMember/GetapplicantTypes
+            API for Binding all FI Member for Joint Members
+            api/Banking/Masters/GetallFIMembers
+             Changed to below API
+            <summary>
+            Get all FI Members Details
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetFDMembers(System.String,System.String)">
+            <summary>
+            Bind Members based on Contact and Member Types Names
+            </summary>
+            <param name="Contacttype"></param>
+            <param name="MemberType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetFdSchemes(System.String,System.String)">
+            <summary>
+            Get Fd Schemes on Passing Membertype and ApplicantType Names
+            </summary>
+            <param name="ApplicantType"></param>
+            <param name="MemberType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetFdSchemeDetails(System.String,System.String,System.Int64,System.String,System.Int64,System.String,System.Decimal)">
+            <summary>
+            Get scheme details
+            </summary>
+            <param name="ApplicantType"></param>
+            <param name="MemberType"></param>
+            <param name="FdconfigID"></param>
+            <param name="Fdname"></param>
+            <param name="Tenure"></param>
+            <param name="Tenuremode"></param>
+            <param name="Depositamount"></param>
+            <param name="InterestRate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.SaveFDMemberandSchemeData(FinstaInfrastructure.Banking.Transactions.FdMemberandSchemeSave)">
+            <summary>
+            Save Fd Transaction 1st and 2nd Tabs
+            </summary>
+            <param name="_FdMemberandSchemeData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.DeleteFdTransactions(System.String,System.Int64)">
+            <summary>
+            Delete Fd Transaction on Passing FdAccountNo and userId
+            </summary>
+            <param name="FdAccountNo"></param>
+            <param name="pCreatedby"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetFdTransactionData">
+            <summary>
+            Fd View Data for Main Page with Active status
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetFdTransactionDetailsforEdit(System.String,System.Int64,System.String)">
+            <summary>
+            Get Insurance Member data on Passing Member Reference ID for Edit
+            </summary>
+            <param name="FdAccountNo"></param>        
+             <param name="FdAccountId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetFdTenuresofTable(System.String,System.Int64,System.String,System.String)">
+            <summary>
+            Gets Tenures based on Fd name and Fd configId
+            </summary>
+            <param name="FDName"></param>
+            <param name="FdconfigId"></param>
+            <param name="TenureMode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetFdDepositamountsofTable(System.String,System.Int64,System.String,System.Int64,System.String)">
+            <summary>
+            Gets Deposit amounts based on Tenure and Fdname, ConfigId
+            </summary>
+            <param name="FDName"></param>
+            <param name="FdconfigId"></param>
+            <param name="TenureMode"></param>
+            <param name="Tenure"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetchitBranchDetails">
+            <summary>
+            Gets Branch Details of Chits
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetchitBranchstatus">
+            <summary>
+            Get Chit branch status for hide/show of Chitbranch in Fd Transaction
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetMaturityamount(System.String,System.Int64,System.Decimal,System.String,System.String,System.Decimal,System.String)">
+            <summary>
+            Get Maturity amount of update table
+            </summary>
+            <param name="pInterestMode"></param>
+            <param name="pInterestTenure"></param>
+            <param name="pDepositAmount"></param>
+            <param name="pInterestPayOut"></param>
+            <param name="pCompoundorSimpleInterestType"></param>
+            <param name="pInterestRate"></param>
+            <param name="pCalType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetInterestamountsofTable(System.String,System.Int64,System.String,System.Int64,System.Decimal,System.String)">
+            <summary>
+            Get Interest Amount of Update table
+            </summary>
+            <param name="FDName"></param>
+            <param name="FdconfigId"></param>
+            <param name="TenureMode"></param>
+            <param name="Tenure"></param>
+            <param name="Depositamount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetMaturityamountsofTable(System.String,System.Int64,System.String,System.Int64,System.Decimal,System.Decimal,System.String)">
+            <summary>
+            Get Maturity amount of Update Table
+            </summary>
+            <param name="FDName"></param>
+            <param name="FdconfigId"></param>
+            <param name="TenureMode"></param>
+            <param name="Tenure"></param>
+            <param name="Depositamount"></param>
+            <param name="Interestamount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetPayoutsofTable(System.String,System.Int64,System.String,System.Int64,System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+            Get Interest Payouts of Update Table
+            </summary>
+            <param name="FDName"></param>
+            <param name="FdconfigId"></param>
+            <param name="TenureMode"></param>
+            <param name="Tenure"></param>
+            <param name="Depositamount"></param>
+            <param name="Interestamount"></param>
+            <param name="Maturityamount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetDepositamountCountofInterestRate(System.String,System.Decimal,System.String)">
+            <summary>
+            Gets count of Deposit amount on passing Fdname and Entered Deposit amount
+            </summary>
+            <param name="Fdname"></param>
+            <param name="Depositamount"></param>       
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetTenureandMininterestRateofInterestRate(System.String,System.Decimal,System.Int64,System.String,System.String,System.String)">
+            <summary>
+            Gets count and minimum interest rate of Tenure and Depositamount on passing Fdname , Entered Deposit amount,Tenure and Mode of Tenure 
+            </summary>
+            <param name="Fdname"></param>
+            <param name="Depositamount"></param>
+            <param name="Tenure"></param>
+            <param name="TenureMode"></param>   
+            <param name="InterestPayout"></param>   
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetFdSchemeDetailsforGrid(System.String,System.String,System.String)">
+            <summary>
+            Gets Scheme Data for Grid Binding
+            </summary>
+            <param name="Fdname"></param>
+            <param name="ApplicantType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FDTransactionController.GetFdSchemeTenureModes(System.String,System.String,System.String)">
+            <summary>
+            Gets Tenure Modes of Scheme
+            </summary>
+            <param name="Fdname"></param>
+            <param name="ApplicantType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FdTransferController.GetFdSchemes">
+            <summary>
+            Get all Fd Schemes
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FdTransferController.GetFdToDetails(System.String,System.String)">
+            <summary>
+            Get To Fd Account no's
+            </summary>
+            <param name="FromFdaccountno"></param>
+            <param name="Branchname"></param>
+            <param name="Membercode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FdTransferController.GetFdFromDetails">
+            <summary>
+            Get From Fd Account no's
+            </summary>
+            <param name="Fdaccountno"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FdTransferController.GetFromFdDetailsByid(System.String)">
+            <summary>
+            Get From account Fixed Deposit Details By ID
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FdTransferController.GetToFdDetailsByid(System.String)">
+            <summary>
+            Get To account Fixed Deposit Details By ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.FdTransferController.GetMemberDetails(System.String)">
+            <summary>
+            Get Memeber Details by branch name
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.MaturityPaymentController.GetMemberTypes">
+            <summary>
+            Get Memeber Type Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.MaturityPaymentController.GetMemberIds(System.String)">
+            <summary>
+            Get Maturity MemeberID Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.MaturityPaymentController.GetDepositIds(System.String,System.String,System.Int64)">
+            <summary>
+            Get Maturity DepositIDs
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.RdTransactionController.GetMemberNomineeDetails(System.String)">
+            <summary>
+            Get Nominee Details of Member Based on Member_Code
+            </summary>
+            <param name="MemberCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.RdTransactionController.SaveRDMemberandSchemeData(FinstaInfrastructure.Banking.Transactions.RdMemberandSchemeSave)">
+            <summary>
+            Save Rd Transaction 1st and 2nd Tabs
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.RdTransactionController.GetRdSchemeDetails(System.String,System.String,System.Int64,System.String,System.Int64,System.String,System.Decimal)">
+            <summary>
+            Get Particular Rd Scheme Details on Passing Recordid of the Rd Name
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.RdTransactionController.GetRDMembers(System.String,System.String)">
+            <summary>
+            Bind Members based on Contact and Member Types
+            </summary>
+            <param name="Contacttype"></param>
+            <param name="MemberType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.RdTransactionController.GetRdSchemes(System.String,System.String)">
+            <summary>
+            Get Rd Schemes on Passing Membertype and ApplicantType Names
+            </summary>
+            <param name="ApplicantType"></param>
+            <param name="MemberType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.RdTransactionController.GetRdTransactionData">
+            <summary>
+            Save Rd Transaction Referral Details on passing Object
+            </summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:FinstaApi.Controllers.Banking.Transactions.RdTransactionController.GetRdInstallmentsamountsofTable(System.String,System.Int64,System.String,System.Int64,System.String)" -->
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.RenewalsController.GetSchemeType">
+            <summary>
+            Get Scheme Type
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.RenewalsController.GetFdaccounts">
+            <summary>
+            Get Fd Accounts
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.RenewalsController.GetFdAccountDetails(System.Int32)">
+            <summary>
+            Get Fd Account Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.ShareApplicationController.GetshareMembers(System.String,System.String)">
+            <summary>
+            Get Member Names Based Member type and Receipt type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.ShareApplicationController.GetShareNames(System.String,System.String)">
+            <summary>
+            Get Share Names Based Member type and Applicant type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.ShareApplicationController.GetSharconfigdetails(System.Int64,System.String,System.String)">
+            <summary>
+            Get Share Config Details Based On Config Id and Applicant type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.ShareApplicationController.SaveShareApplication(FinstaInfrastructure.Banking.Transactions.ShareApplicationDTO)">
+            <summary>
+            Save / Update Share Application//1st Tab
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.ShareApplicationController.SaveshareJointMembersandNomineeData(FinstaInfrastructure.Banking.Transactions.savejointandnomiee)">
+            <summary>
+            Share Joint Members and Nominees Save
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.ShareApplicationController.SaveReferralData(FinstaInfrastructure.Banking.Transactions.Referrals)">
+            <summary>
+            Save Referral Data
+            </summary>
+            <param name="ReferralDetails"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.ShareApplicationController.DeleteShareDetails(System.Int64)">
+            <summary>
+            Delete Share application
+            </summary>
+            <param name="ReferralDetails"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Banking.Transactions.ShareApplicationController.GetShareApplicationViewDetails">
+            <summary>
+            Get Share Application View Details.
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Masters.ContactMasterController.GetcontactviewByName(System.String)">
+             <summary>
+            Get All Contact Details like CONTACTS,APPLICANTS,PARTIES,EMPLOYEES,REFERRALS,ADVOCATES
+             </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Masters.ContactMasterNewController.GetContactCount(System.String,System.String)">
+             <summary>
+            Get All Contact Details like CONTACTS,APPLICANTS,PARTIES,EMPLOYEES,REFERRALS,ADVOCATES
+             </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.AccountStatementController.GetAccountstatementReport(System.String)">
+            <summary>
+            Get Account Statement Report on Passing Loan Account No.
+            </summary>
+            <param name="VchapplicationID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.DeliveryOrderLetterController.GetDeliveryOrderLetterMainData(System.String)">
+            <summary>
+            Gets Main Grid Data of Delivery Order Letter
+            </summary>        
+            <param name="Letterstatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.DeliveryOrderLetterController.Savedeliveryorderletter(FinstaInfrastructure.Loans.Reports.DeliveryOrderLetterDTO)">
+            <summary>
+            Save's Delivery Order Letter on Paassing  Model Object
+            </summary>
+            <param name="_SanctionLetter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.DeliveryOrderLetterController.GetDeliveryOrderLetterData(System.String)">
+            <summary>
+            Gets Delivery Order Letter Data on Passing Loan account No.
+            </summary>
+            <param name="VchapplicationID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.DeliveryOrderLetterController.GetDeliveryOrdersCount">
+            <summary>
+            Gets Count of Sanction Letters Sent and Not Sent Count
+            </summary>      
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.DisbursmentLetterController.GetDisbursalLetterMainData(System.String)">
+            <summary>
+            Gets Main Grid Data of Disbursal Letter
+            </summary>        
+            <param name="Letterstatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.DisbursmentLetterController.GetDisbursementLettersCount">
+            <summary>
+            Gets Count of Disbursal Letters Status Sent and Not Sent Count
+            </summary>      
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.DisbursmentLetterController.SaveDisbursalLetter(FinstaInfrastructure.Loans.Reports.DisbursmentLetterDTO)">
+            <summary>
+            Save's Disbursal Letter on Paassing  Disbursal Model Object
+            </summary>
+            <param name="_DisbursmentLetterDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.DisbursmentLetterController.GetDisbursalLetterData(System.String,System.String)">
+            <summary>
+            Gets Disbursal Letters Data on passing Loan Account No.
+            </summary>        
+            <param name="VchapplicationId"></param>
+            <param name="Voucherno"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.DuesSummaryReportController.GetDuesSummaryReport(System.String,System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Get Dues Summary Report onm passing Loan Account No.
+            </summary>
+            <param name="FromDate"></param>
+            <param name="ToDate"></param>
+            <param name="recordid"></param>
+            <param name="fieldname"></param>
+            <param name="fieldtype"></param>
+            <param name="duestype"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.SanctionLetterController.GetSanctionLetterData(System.String)">
+            <summary>
+            Gets Sanction Letter Data on Passing Loan Account No.
+            </summary>
+            <param name="VchapplicationID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.SanctionLetterController.GetSanctionLetterMainData(System.String)">
+            <summary>
+            Gets Main Grid Data of Sanction Letter
+            </summary>        
+            <param name="Letterstatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.SanctionLetterController.Savesanctionletter(FinstaInfrastructure.Loans.Reports.SanctionLetter)">
+            <summary>
+            Save's Sanction Letter on Paassing  SanctionLetter Model Object
+            </summary>
+            <param name="_SanctionLetter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Reports.SanctionLetterController.GetSanctionLettersCount">
+            <summary>
+            Gets Count of Sanction Letters Sent and Not Sent
+            </summary>      
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.SaveSavepropertylocation(FinstaInfrastructure.Loans.Transactions.PropertylocationDTO)">
+            <summary>
+            Home Loan Masters Save Property Location
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.Savepropertyownershiptype(FinstaInfrastructure.Loans.Transactions.PropertyownershiptypeDTO)">
+            <summary>
+            Home Loan Masters Save Property ownership Type
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.Savepropertytype(FinstaInfrastructure.Loans.Transactions.propertytypeDTO)">
+            <summary>
+            Home Loan Masters Save Property  Type
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.Savepurpose(FinstaInfrastructure.Loans.Transactions.purposeDTO)">
+            <summary>
+            Home Loan Masters Save Purpose
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.Savepropertystatus(FinstaInfrastructure.Loans.Transactions.propertystatusDTO)">
+            <summary>
+            Home Loan Masters Save Property Status
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.Getpropertylocation">
+            <summary>
+            Home Loan Masters Bind Property Location
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetPropertyownershiptype">
+            <summary>
+            Home Loan Masters Bind Property ownership Type
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.Getpropertytype">
+            <summary>
+            Home Loan Masters Bind Property Type
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.Getpurpose">
+            <summary>
+            Home Loan Masters Bind purpose
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.Getpropertystatus">
+            <summary>
+            Home Loan Masters Bind Property Status
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetApplicantLoanSpecificDetails(System.String)">
+            <summary>
+            Fetch Loan  details Passing  string strapplictionid
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetApplicationPersonalInformation(System.String)">
+            <summary>
+            Get Application Personal Information Based on  strapplictionid
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetApplicationPersonalLoanInformation(System.String)">
+            <summary>
+            Get Applicant Personal Loan Information Based on  strapplictionid
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.SaveEducationQualification(FinstaInfrastructure.Loans.Transactions.EducationalQualificationDTO)">
+            <summary>
+            Education Loan Masters Save Educational Qualification
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.SaveEducationFeeQualification(FinstaInfrastructure.Loans.Transactions.EducationalFeeQualificationDTO)">
+            <summary>
+            Education Loan Masters Fee   Save Educational Qualification
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.SaveEducationFeeYear(FinstaInfrastructure.Loans.Transactions.EducationalFeeYearDTO)">
+            <summary>
+            Education Loan Masters Fee   Save Educational Year
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetEducationQualification">
+            <summary>
+            Education Loan Masters   Bind Educational Qualification
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetEducationalFeeYear">
+            <summary>
+            Education Loan Masters FEE  Bind YEAR
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetEducationalFeeQualification">
+            <summary>
+            Education Loan Masters FEE  Bind Educational Qualification
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetApplicationIds(System.String)">
+            <summary>
+            Bind Application Ids Based on LoanType
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.SaveLoanSpecificDetails(System.String,FinstaInfrastructure.Loans.Transactions.ApplicationLoanSpecificDTO)">
+            <summary>
+            Save Loan  details Passing  string strapplictionid
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.SaveApplicationReferenceData(System.Int64,System.String,FinstaInfrastructure.Loans.Transactions.ApplicationReferencesDTO)">
+            <summary>
+            Save Application References
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetApplicationReferenceData(System.Int64,System.String)">
+            <summary>
+            Gets References data of an Application based on vchApplicationId and applicationid
+            </summary>
+            <param name="applicationId"></param>
+            <param name="vchapplicationID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.UpdateApplicationReferenceData(System.Int64,System.String,FinstaInfrastructure.Loans.Transactions.ApplicationReferencesDTO)">
+            <summary>
+            Deletes or Creates References on Edit (no Update)
+            </summary>
+            <param name="applicationId"></param>
+            <param name="vchapplicationID"></param>
+            <param name="objReferenceData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.SaveConsumableproductTypes(FinstaInfrastructure.Loans.Transactions.ProducttypeDTO)">
+            <summary>
+            Consumer Loan Master Save Product Types
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetConsumableproductTypes">
+            <summary>
+            Consumer Loan Masters Product Type  Bind 
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.saveApplicationLoanAgainstpropertyLoanspecificfiels(FinstaInfrastructure.Loans.Transactions.ApplicationSecurityandCollateralDTO)">
+            <summary>
+            Consumer Loan Master Save Product Types
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.saveApplicatntPersonalLoan(FinstaInfrastructure.Loans.Transactions.ApplicationPersonalInformationDTO)">
+            <summary>
+            save Presonal Loan Loan Specific Api
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetFiDocumentlDetails(System.String)">
+            <summary>
+            Get Fi Document Verification Details
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetFirstInformationView">
+            <summary>
+            Get Firstinformation View Details
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.FirstinformationController.GetFiEmiSchesuleview(System.Decimal,System.String,System.String,System.Decimal,System.Int32,System.String,System.Int32)">
+            <summary>
+            Get Firstinformation caluculate EMI
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.VerificationController.SaveVerificationDetails(FinstaInfrastructure.Loans.Transactions.TeleVerificationDTO)">
+             <summary>
+            Save Verification Details
+             </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.VerificationController.SaveFIVerificationDetails(FinstaInfrastructure.Loans.Transactions.FIDocumentViewDTO)">
+             <summary>
+            Save FI Verification Details
+             </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.VerificationController.Savefieldverification(FinstaInfrastructure.Loans.Transactions.FieldverificationDTO)">
+             <summary>
+            Save field verification Details
+             </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.VerificationController.GetVerificationDetails(System.String)">
+             <summary>
+            Bind Verification Details Based on strapplicationid
+             </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.VerificationController.GetFieldVerificationDetails(System.String)">
+             <summary>
+            Bind Field Verification Details Based on strapplicationid
+             </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.VerificationController.GetAllApplicantVerificationDetails">
+            <summary>
+            Get All Applicant Verification Status Details
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.VerificationController.GetApplicantDetails(System.String)">
+             <summary>
+            Bind Applicant Details Based On ContactRefID
+             </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Loans.Transactions.VerificationController.GetApplicantLoanSpecificDetailsinVerification(System.String)">
+            <summary>
+            Fetch Loan  details Passing  string strapplictionid
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.EmployeeController.SaveEmployeeRole(FinstaInfrastructure.Settings.EmployeeRole)">
+            <summary>
+            Saves Employee Role
+            </summary>
+            <param name="employeeRole"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.EmployeeController.SaveEmployeeDetails(FinstaInfrastructure.Settings.EmployeeDTO)">
+            <summary>
+            Save Employee Details on Passing Employee DTO
+            </summary>
+            <param name="employeeDetails"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.EmployeeController.GetallEmployeeDetails">
+            <summary>
+            Fetch All Employee details in Main Grid (View)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.EmployeeController.checkEmployeeCountinMaster(FinstaInfrastructure.Settings.EmployeeDTO)">
+            <summary>
+            Checks Duplicates whether Contact Exists as Employee Or Not
+            /// </summary>
+            <param name="employeeObj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.EmployeeController.GetEmployeeDetailsOnId(System.Int64)">
+            <summary>
+             Fetching employee Details Based on ID 
+            </summary>
+            <param name="employeeID"></param>
+            <returns></returns>        
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.EmployeeController.UpdateEmployeeData(FinstaInfrastructure.Settings.EmployeeDTO)">
+            <summary>
+            Updates and Deletes Specific Employee Details on passing Employee DTO and Main Transaction Type.
+            </summary>
+            <param name="employeeUpdateDTO"></param> 
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.EmployeeController.checkEmployeeRoleExistsOrNot(System.String)">
+            <summary>
+            Checks Duplicate Role Name Exists or not with Active status
+            </summary>
+            <param name="Rolename"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.GroupCreationController.SaveGroupRole(FinstaInfrastructure.Settings.GroupRoleDTO)">
+            <summary>
+            Saves Group Role
+            </summary>
+            <param name="groupRole"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.GroupCreationController.checkGroupRoleCountinMaster(System.String)">
+            <summary>
+            Checks Duplicate Group Roles
+            </summary>
+            <param name="roleName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.GroupCreationController.saveGroupConfiguration(FinstaInfrastructure.Settings.GroupCreationDTO)">
+            <summary>
+            Save Group Configuration Data
+            </summary>
+            <param name="groupObj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.GroupCreationController.checkContactDuplicateinGroup(System.String,System.Int64)">
+            <summary>
+            Checks Contact exists or not for the Group Name (Duplicate)
+            </summary>
+            <param name="GroupName"></param>
+            <param name="ContactId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.GroupCreationController.getGroupRoles">
+            <summary>
+            Get Group Roles
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.GroupCreationController.GetallEmployeeDetailsAsync">
+            <summary>
+            Get all Group Details for Main View
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.GroupCreationController.UpdateGroupDetails(FinstaInfrastructure.Settings.GroupCreationDTO)">
+            <summary>
+            Update Group Member Details on Edit
+            </summary>
+            <param name="groupUpdateDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.GroupCreationController.GetGroupMembersDetailsOnIdAsync(System.Int64)">
+            <summary>
+             Fetching employee Details Based on ID 
+            </summary>
+            <param name="groupID"></param>
+            <returns></returns>        
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.SettingsController.getContacttypes(System.Int32)">
+            <summary>
+            To get contacttypes and loanid as 0 incase of no dependency
+            </summary>
+            <param name="loanid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.SettingsController.getDocumentstoreDetails(System.Int64,System.String)">
+            <summary>
+            Not Implemented As of now
+            </summary>
+            <param name="relationObj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.SettingsController.GetcompanyNameandaddressDetails">
+            <summary>
+            Get Company Name and Address Details (Address,Branch name,Gstin,Cin no) (for Reports)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.SettingsController.GetAllPartyDetails(System.String)">
+            <summary>
+            Gets all Party Details on passing Party Type
+            </summary>
+            <param name="Type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.ContactDataController.GetContactData(System.String)">
+            <summary>
+            Gets  Contact Data Based On Contact Reference ID.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.ContactDataController.GetContactDataDetails(System.String,System.String)">
+            <summary>
+            Gets  Contact Loans Based On Contact Reference ID.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.SaveWorkGroupinRole(FinstaInfrastructure.Settings.Users.WorkGroupinrolesDTO)">
+            <summary>
+            Save's Work Group in Role.
+            </summary>
+            <param name="_WorkGroupinrolesDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.GetallWorkGroupsinRoles">
+            <summary>
+            Gets all Work Groups for Role.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.SaveRole(FinstaInfrastructure.Settings.Users.RolesDTO)">
+            <summary>
+            Save's Role
+            </summary>
+            <param name="_RolesDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.SaveRoleModule(FinstaInfrastructure.Settings.Users.RolemodulesDTO)">
+            <summary>
+            Saves Role Module on passing Model object.
+            </summary>
+            <param name="_RolemodulesDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.SaveRoleSubModule(FinstaInfrastructure.Settings.Users.RolesubmodulesDTO)">
+            <summary>
+            Saves Role Submodule on passing Model Object.
+            </summary>
+            <param name="_RolesubmodulesDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.GetallRolesModules">
+            <summary>
+            Gets all Role Modules.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.GetRolesSubModulesbyModule(System.Int64)">
+            <summary>
+            Gets Role Submodules on passing Module ID.
+            </summary>
+            <param name="Moduleid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.SaveRoleFunction(FinstaInfrastructure.Settings.Users.MenuandNavigationDTO)">
+            <summary>
+             Saves Role Functions .
+            </summary>
+            <param name="_MenuandNavigationDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.GetWorkgroupandDesignations">
+            <summary>
+            Gets all Work-Groups and Designations (Both active and Inactive).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.GetWorkgroupcount(System.String)">
+            <summary>
+             Get Work Group Count
+            </summary>
+            <param name="Workgroup"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.GetWorkgroupandDesignationcount(System.String,System.String)">
+            <summary>
+            Checks Work-Group and Designation Combination count
+            </summary>
+            <param name="Workgroup"></param>
+            <param name="Rolename"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.GetModulecount(System.String)">
+            <summary>
+             Get Module Count
+            </summary>
+            <param name="Modulename"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.GetSubmenucountbyMenu(System.String,System.String)">
+            <summary>
+            Checks Module-SubModule Combination count
+            </summary>
+            <param name="Modulename"></param>
+            <param name="Submodulename"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.RolesCreationController.GetMenuandfunctionCount(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            Checks Function Saving Duplicates on passing Menu,Submenu Id's and functionname,function url.
+            </summary>
+            <param name="MenuId"></param>
+            <param name="SubMenuId"></param>
+            <param name="functionname"></param>
+            <param name="functionurl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserAccessController.GetAllEmployees">
+            <summary>
+            Get All Un Registered Employees (i.e Un Registered Users)
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserAccessController.GetUserView">
+            <summary>
+            Get All Registred User View
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserAccessController.GetEmployeeRole(System.Int64)">
+            <summary>
+            Get  Employee Role Based On Employee ID
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserAccessController.SaveUserAccess(FinstaInfrastructure.Settings.Users.UserAccessDTO)">
+            <summary>
+            Save User Registration
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserAccessController.CheckUserName(System.String)">
+            <summary>
+            Retuns User Count Based On User Name .if count is greater then 0 user Name Already Exist 
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserAccessController.CheckUsercontactRefID(System.String)">
+            <summary>
+            Retuns User Count Based On Contact Reference ID .if count is greater then 0 Contact Reference ID Already Exist 
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserAccessController.checkUserLogin(System.String,System.String)">
+            <summary>
+            Check User Login
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserAccessController.ChangePassword(System.String,System.String)">
+            <summary>
+            Registred User Change Password Based On User Name
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserAccessController.UserActiveInactive(System.Int64,System.Boolean)">
+            <summary>
+            Registred User IN-ACTIVE / ACTIVE Based on User Id
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserAccessController.ResetPassword(System.String)">
+            <summary>
+            Reset Password Based On User Name
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserRightsController.GetUserRights(System.String,System.String)">
+            <summary>
+            Gets User Rights View Based On Passing Parameters Type (User Or Designation) and if designation then Designation Name if User Then User Name
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserRightsController.GetUserRightsBasedonUserName(System.String)">
+            <summary>
+            Menu Binding Based User Name (Assigned In  User Rights Form)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserRightsController.SaveUserRight(System.String,System.String,FinstaInfrastructure.Settings.Users.UserRightsFunctionsDTO)">
+            <summary>
+            Saving User Rights  Based On Passing Parameters Type (User Or Designation) and if designation then Designation Name if User Then User Name And Function Names
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserRightsController.GetRoles">
+            <summary>
+            Get All Roles
+            </summary>
+        </member>
+        <member name="M:FinstaApi.Controllers.Settings.Users.UserRightsController.GetUsers">
+            <summary>
+            Get All Users
+            </summary>
+        </member>
+        <member name="M:Finsta_Banking_Api.Controllers.Banking.Transactions.RDReceiptController.GetMemberDetails(System.String)">
+            <summary>
+            Get Memeber Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:Finsta_Banking_Api.Controllers.Banking.Transactions.RDReceiptController.GetAccountDetails(System.String)">
+            <summary>
+            Get Account  Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:Finsta_Banking_Api.Controllers.Banking.Transactions.RDReceiptController.GetAccountDetailsByid(System.String)">
+            <summary>
+            Get Account  Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:Finsta_Banking_Api.Controllers.Banking.Transactions.RDReceiptController.GetViewDues(System.String,System.String)">
+            <summary>
+            View  Due Details
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:Finsta_Banking_Api.Controllers.Banking.Transactions.RDReceiptController.SaveRdReceipt(Finsta_Banking_Infrastructure.Banking.Transactions.RdReceiptDTO)">
+            <summary>
+            Save RD Receipt
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:Finsta_Banking_Api.Controllers.Banking.Transactions.RDReceiptController.GetRdReceiptDetails(System.String,System.String)">
+            <summary>
+            Get View RD Receipt Details 
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:Finsta_Banking_Api.Controllers.Banking.Transactions.RDReceiptController.GetTransactionslist(System.Int32)">
+            <summary>
+            Get Transactions list
+            </summary>     
+            <returns></returns>
+        </member>
+        <member name="M:Finsta_Banking_Api.Controllers.Banking.Transactions.RDReceiptController.GetAdjustmentDetils(System.String)">
+            <summary>
+            Get Adjustment Detils
+            </summary>     
+            <returns></returns>
+        </member>
+    </members>
+</doc>

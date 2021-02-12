@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\bin\Debug\netcoreapp2.1\Finsta_Banking_Infrastructure.deps.json
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\bin\Debug\netcoreapp2.1\Finsta_Banking_Infrastructure.dll
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\bin\Debug\netcoreapp2.1\Finsta_Banking_Infrastructure.pdb
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\obj\Debug\netcoreapp2.1\Finsta_Banking_Infrastructure.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\obj\Debug\netcoreapp2.1\Finsta_Banking_Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\obj\Debug\netcoreapp2.1\Finsta_Banking_Infrastructure.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\obj\Debug\netcoreapp2.1\Finsta_Banking_Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\obj\Debug\netcoreapp2.1\Finsta_Banking_Infrastructure.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\obj\Debug\netcoreapp2.1\Finsta_Banking_Infrastructure.dll
+C:\Users\Administrator\Desktop\Finsta_Banking_API\FinstaGenericInfrastructure\obj\Debug\netcoreapp2.1\Finsta_Banking_Infrastructure.pdb

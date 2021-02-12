@@ -1,0 +1,118 @@
+﻿<h2>Navigation</h2>
+
+<div class="container-fluid">
+
+    <nav class="navbar-primary position-fixed">
+        <ul class="navbar-primary-menu">
+
+            <li>
+
+                <div onClick="location.href='#'">
+                    <a href="#" class="text-center mb-3">
+                        <img src="assets/images/finsta-logo.svg" width="120px" height="120px" /></a>
+                </div>
+
+                <div id="nav-dashboard">
+                    <a routerLink="/Dashboard"><span class="nav-label">Dashboard</span></a>
+                </div>
+
+                <div id="nav-loans-active">
+                    <a data-toggle="modal" href="#l-Modal"><span class="nav-label">Loans</span></a>
+                </div>
+
+                <div id="nav-banking">
+                    <a routerLink="/Loansmaster"><span class="nav-label">Banking</span></a>
+                </div>
+
+                <div id="nav-accounting">
+                    <a><span class="nav-label">Accounting</span></a>
+                </div>
+
+                <div id="nav-hrms">
+                    <a><span class="nav-label">HRMS</span></a>
+                </div>
+
+                <div id="nav-settings">
+                    <a><span class="nav-label">Settings</span></a>
+                </div>
+
+            </li>
+        </ul>
+    </nav>
+
+    <div class="row top-nav py-3">
+        <div class="col d-flex flex-wrap align-items-center">
+            <a data-toggle="modal" href="#l-Modal" class="mr-3 mb-3"><img src="assets/images/icon-back-blue.svg" width="25px" height="25px" /></a>
+            <p class="mr-3 bc-1">Loans </p>
+            <p class="bc-2">Loans Master</p>
+        </div><!--col-end-->
+
+        <div class="col text-right">
+
+            <div class="dropdown profile">
+
+                <a class="btn dropdown-toggle border-0" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-circle-aqua mr-1">6</button>
+                    <button type="button" class="btn btn-circle-aqua mr-1">EMI </button>
+                    <img width="30px" height="30px" src="assets/images/profile-picture.jpeg" class="rounded-circle mr-3"> <img width="16px" height="16px" src="assets/images/icon-profile-dropdown.svg">
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="profile.html">Profile</a>
+                    <a class="dropdown-item" href="#">Signout</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+
+            </div><!--dropdown-end-->
+
+        </div><!--col-end-->
+    </div><!--row-end-->
+    <!-- ======================================================================== top-nav-end ============================================================================= -->
+    <div class="main-content">
+        <router-outlet></router-outlet>
+    </div>
+
+    <!------------------------------------------------modal start------------------------------------------------------------->
+    <!-- modal -->
+    <div class="modal fade" id="l-Modal" tabindex="-1" role="dialog" aria-labelledby="l-Modal-lable" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="l-Modal-lable"><img src="assets/images/icon-loans-active.svg" width="30px" height="30px" />&nbsp;&nbsp;Loans</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+
+                        <div class="row">
+
+                            <div class="col-12 col-lg mb-4 pr-lg-5">
+                                <p class="msm-tt clr-orange">Select a customer</p>
+                                <input type="search" class="form-control border-left-0 border-top-0 border-right-0 rounded-0 sb" value="Vignesh Kumar 1- 54-896543">
+                            </div><!--col-end-->
+
+                            <div class="col-12 col-lg">
+                                <p class="msm-tt clr-orange">loan configuration</p>
+                                <p><a class="msm-tt text-decoration-none clr-primary" routerLink="/LoansMaster" data-dismiss="modal">loans-master</a></p>
+                                <p><a class="msm-tt text-decoration-none clr-primary" routerLink="/ChargesMaster" data-dismiss="modal">chargesmaster</a></p>
+                                <p><a class="msm-tt text-decoration-none clr-primary" routerLink="/Documents" data-dismiss="modal">Documents</a></p>
+                                <p><a class="msm-tt text-decoration-none clr-primary" routerLink="/SchemeMaster" data-dismiss="modal">Scheme Master</a></p>
+                            </div><!--col-end-->
+
+                            <div class="col-12 col-lg">
+                                <p class="msm-tt clr-orange">Contact</p>
+                                <p><a class="msm-tt text-decoration-none clr-primary" routerLink="ContactForm" data-dismiss="modal">contactform</a></p>
+                            </div><!--col-end-->
+
+                        </div><!--row-end-->
+
+                    </div><!--container-fluid-end-->
+                </div><!--modal-body-end-->
+            </div>
+        </div>
+    </div><!--modal-end-->
+    <!----------------------------------------------------Model And--------------------------------------------------------->
+
+</div>  <!--container-fluid-end-->

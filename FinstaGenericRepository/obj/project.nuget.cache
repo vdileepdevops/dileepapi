@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "5b5IhDboEILpcB7fEWJ3+YpsBM2aCXrBZH54r+s+nsFf3Riw5NekNTtC9R8X9CMk4cX4S7UPTSES0gmotVrUOQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Finsta_Banking_API\\FinstaGenericRepository\\Finsta_Banking_Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0-preview7.19362.9\\microsoft.netcore.platforms.3.0.0-preview7.19362.9.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\system.configuration.configurationmanager\\4.6.0-preview7.19362.9\\system.configuration.configurationmanager.4.6.0-preview7.19362.9.nupkg.sha512",
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\system.security.accesscontrol\\4.6.0-preview7.19362.9\\system.security.accesscontrol.4.6.0-preview7.19362.9.nupkg.sha512",
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.6.0-preview7.19362.9\\system.security.cryptography.protecteddata.4.6.0-preview7.19362.9.nupkg.sha512",
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\system.security.permissions\\4.6.0-preview7.19362.9\\system.security.permissions.4.6.0-preview7.19362.9.nupkg.sha512",
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\system.security.principal.windows\\4.6.0-preview7.19362.9\\system.security.principal.windows.4.6.0-preview7.19362.9.nupkg.sha512"
+  ],
+  "logs": []
+}
